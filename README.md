@@ -1,6 +1,16 @@
 # Serv00 服务器状态检测工具
 
+[![GitHub license](https://img.shields.io/github/license/lzban8/serv00-server-status)](https://github.com/lzban8/serv00-server-status/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/lzban8/serv00-server-status)](https://github.com/lzban8/serv00-server-status/issues)
+[![GitHub stars](https://img.shields.io/github/stars/lzban8/serv00-server-status)](https://github.com/lzban8/serv00-server-status/stargazers)
+[![Deploy Status](https://img.shields.io/github/deployments/lzban8/serv00-server-status/github-pages)](https://github.com/lzban8/serv00-server-status/deployments)
+[![Website Status](https://img.shields.io/website?url=https%3A%2F%2Flzban8.github.io%2Fserv00-server-status%2F)](https://lzban8.github.io/serv00-server-status/)
+
 这是一个用于检测 Serv00 系列服务器可用性的网页工具。该工具提供了实时的服务器状态监控、IP 地理位置查询以及网络连通性测试功能。
+
+## 在线演示
+
+🚀 [立即访问在线演示](https://lzban8.github.io/serv00-server-status/)
 
 ## 功能特点
 
