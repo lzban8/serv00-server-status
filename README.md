@@ -6,6 +6,25 @@
 [![Deploy Status](https://img.shields.io/github/deployments/lzban8/serv00-server-status/github-pages)](https://github.com/lzban8/serv00-server-status/deployments)
 [![Website Status](https://img.shields.io/website?url=https%3A%2F%2Flzban8.github.io%2Fserv00-server-status%2F)](https://lzban8.github.io/serv00-server-status/)
 
+> 🔍 一个轻量级的服务器状态监控工具，支持多服务器批量检测、IP地理位置查询、网络连通性测试等功能。
+> 
+> 基于纯原生JavaScript开发，无需后端支持，支持深色模式，响应式设计适配移动端。
+
+![GitHub language count](https://img.shields.io/github/languages/count/lzban8/serv00-server-status)
+![GitHub top language](https://img.shields.io/github/languages/top/lzban8/serv00-server-status)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/lzban8/serv00-server-status)
+![GitHub last commit](https://img.shields.io/github/last-commit/lzban8/serv00-server-status)
+
+**关键特性：**
+- 🚀 零依赖，纯静态部署
+- 🌓 自适应深色模式
+- 📱 响应式设计
+- 🔄 实时状态监控
+- 🌍 IP地理位置查询
+- 🔒 隐私安全保护
+
+**技术标签：** `JavaScript` `HTML5` `CSS3` `RESTful API` `响应式设计` `深色模式` `服务器监控` `网络工具`
+
 这是一个用于检测 Serv00 系列服务器可用性的网页工具。该工具提供了实时的服务器状态监控、IP 地理位置查询以及网络连通性测试功能。
 
 ## 在线演示
@@ -134,73 +153,3 @@
    docker build -t serv00-status .
    docker run -d -p 80:80 serv00-status
    ```
-
-2. **配置更新**
-   - 修改服务器列表：编辑 `index.html` 中的 `servers` 数组
-   - 调整 API 配置：根据需要修改 API 地址和参数
-   - 更新界面主题：修改 CSS 样式定义
-
-### 性能优化建议
-
-1. **CDN 加速**
-   - 建议将网站部署到 CDN
-   - 适当配置缓存策略
-   - 启用 HTTP/2 支持
-
-2. **安全性配置**
-   - 启用 HTTPS
-   - 配置适当的 CSP (Content Security Policy)
-   - 启用 HSTS
-   - 定期更新 SSL 证书
-
-3. **监控告警**
-   - 配置网站可用性监控
-   - 设置错误日志告警
-   - 监控 API 调用限制
-
-## 使用说明
-
-### 基本功能
-1. **检测所有服务器**
-   - 点击"检测所有服务器"按钮
-   - 等待检测完成，查看结果
-
-2. **检测被阻止的服务器**
-   - 点击"仅检测被阻止的服务器"按钮
-   - 系统将只检测之前显示为"被阻止"状态的服务器
-
-3. **添加自定义域名**
-   - 在输入框中输入要检测的域名
-   - 点击"检测"按钮或按回车键
-   - 系统会将新域名添加到列表并立即进行检测
-
-### 查看详细信息
-- 点击 IP 地址可以快速复制
-- 查看服务器的响应时间和地理位置信息
-- 观察详细的错误信息（如果有）
-
-## 注意事项
-
-1. **API 限制**
-   - 由于使用免费 API 服务，可能存在访问限制
-   - 建议适当控制检测频率
-   - 如遇到 API 访问失败，请稍后重试
-
-2. **网络要求**
-   - 确保设备有稳定的网络连接
-   - 部分功能可能受到网络环境影响
-
-3. **兼容性**
-   - 支持所有现代浏览器
-   - 自适应深色/浅色模式
-   - 支持移动端访问
-
-## 隐私说明
-
-- 本工具不会保存任何用户数据
-- 所有检测均为实时进行
-- IP 信息仅用于显示，不会被存储或共享
-
-## 免责声明
-
-本工具仅供网络连通性测试使用，API 数据由第三方服务提供，不对数据准确性做保证。使用本工具时请遵守相关法律法规和服务条款。 
